@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="relative text-white md:-mt-[100px] bg-gradient-to-tr from-[#161616] to-[#080808] lg:mx-24 md:py-20 mx-4 py-12 md:px-16 px-6 rounded-xl z-50 flex flex-col md:flex-row justify-between md:items-center gap-12 ">
+    <div id="about" className="relative text-white md:-mt-[100px] bg-gradient-to-tr from-[#161616] to-[#080808] lg:mx-24 md:py-20 mx-4 py-12 md:px-16 px-6 rounded-xl z-50 flex flex-col md:flex-row justify-between md:items-center gap-12 ">
       <div
         className={`bg-[url(/src/asset/funfact-bg.svg)] bg-no-repeat bg-center h-full w-full absolute top-0 left-0 opacity-75`}
       ></div>

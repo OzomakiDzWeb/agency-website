@@ -84,7 +84,24 @@ nav {
   transform: translate(-50%, -%50);
   animation: Updown 3s infinite;
 }
-
+.slick-prev {
+  left: 3% !important;
+  z-index: 1;
+}
+.slick-next {
+  right: 3% !important;
+  z-index: 1;
+}
+.slick-slide {
+  margin: 5px;
+}
+.slick-track {
+  height: fit-content;
+}
+.slick-dots li button:before {
+  margin-top: 10px;
+  color: white !important;
+}
 @keyframes Updown {
   0%,
   100% {
